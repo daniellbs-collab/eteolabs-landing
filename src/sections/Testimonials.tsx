@@ -9,26 +9,26 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 const testimonials = [
   {
     name: 'Carlos Oliveira',
-    role: 'Sindico profissional',
-    quote: 'Saimos do caos de encomendas para rastreabilidade total em semanas. A equipe virou referencia no condominio.',
+    role: 'Síndico profissional',
+    quote: 'Saímos do caos de encomendas para rastreabilidade total em semanas. A equipe virou referência no condomínio.',
     rating: 5,
   },
   {
     name: 'Fernanda Lima',
-    role: 'Gestora de clinica',
+    role: 'Gestora de clínica',
     quote: 'A nova arquitetura de agenda e atendimento aumentou nossa produtividade sem aumentar equipe.',
     rating: 5,
   },
   {
     name: 'Rafael Tavares',
     role: 'Diretor de varejo de notebooks',
-    quote: 'Com dashboards em tempo real, passamos a corrigir margem e estoque antes do problema virar prejuizo.',
+    quote: 'Com dashboards em tempo real, passamos a corrigir margem e estoque antes do problema virar prejuízo.',
     rating: 5,
   },
   {
     name: 'Bruno Mendes',
     role: 'Dono de rede de barbearias',
-    quote: 'Finalmente temos previsibilidade de agenda e recorrencia. O sistema sustenta nosso crescimento.',
+    quote: 'Finalmente temos previsibilidade de agenda e recorrência. O sistema sustenta nosso crescimento.',
     rating: 5,
   },
 ];
@@ -48,7 +48,7 @@ export function Testimonials() {
       <SectionTitle
         tag="Prova social"
         title="Resultados que sustentam o discurso"
-        description="Empresas de segmentos diferentes validando o mesmo principio: transformacao real de gestao."
+        description="Empresas de segmentos diferentes validando o mesmo princípio: transformação real de gestão."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden" ref={carouselRef}>

@@ -10,9 +10,9 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 
 const pillars = [
   { icon: Layers, text: 'Mapeamento do processo e pontos de perda' },
-  { icon: BrainCircuit, text: 'Desenho de sistema com IA aplicada ao negocio' },
-  { icon: LineChart, text: 'Indicadores de governanca para decisao executiva' },
-  { icon: Rocket, text: 'Implantacao rapida com acompanhamento de performance' },
+  { icon: BrainCircuit, text: 'Desenho de sistema com IA aplicada ao negócio' },
+  { icon: LineChart, text: 'Indicadores de governança para decisão executiva' },
+  { icon: Rocket, text: 'Implantação rápida com acompanhamento de performance' },
 ];
 
 export function ProductDemo() {
@@ -34,9 +34,9 @@ export function ProductDemo() {
 
       <div className="relative z-10">
         <SectionTitle
-          tag="Metodo"
+          tag="Método"
           title="Do briefing ao painel executivo"
-          description="Nossa entrega combina estrategia comercial, design de produto e engenharia para gerar ganho operacional mensuravel."
+          description="Nossa entrega combina estratégia comercial, design de produto e engenharia para gerar ganho operacional mensurável."
         />
 
         <motion.div
@@ -59,11 +59,11 @@ export function ProductDemo() {
               <div className="relative p-8 md:p-10 min-h-[360px] border-b lg:border-b-0 lg:border-r border-white/10">
                 <div className="absolute -top-24 -right-20 w-56 h-56 rounded-full bg-cyan-primary/20 blur-3xl pointer-events-none" />
                 <h3 className="relative text-3xl md:text-4xl font-display font-bold text-white leading-tight max-w-md">
-                  Operacao visualmente clara. Decisao comercial mais rapida.
+                  Operação visualmente clara. Decisão comercial mais rápida.
                 </h3>
                 <p className="relative mt-4 text-gray-300 max-w-lg leading-relaxed">
-                  Cada modulo nasce conectado a resultado de negocio: margem, produtividade,
-                  recorrencia e satisfacao do cliente final.
+                  Cada módulo nasce conectado a resultado de negócio: margem, produtividade,
+                  recorrência e satisfação do cliente final.
                 </p>
 
                 <div className="relative mt-8 grid sm:grid-cols-2 gap-3">
@@ -82,22 +82,22 @@ export function ProductDemo() {
                   <div className="mt-5 space-y-3">
                     <div className="glass-card p-4">
                       <p className="text-sm text-white">Semana 1</p>
-                      <p className="text-xs text-gray-400 mt-1">Diagnostico e desenho da arquitetura</p>
+                      <p className="text-xs text-gray-400 mt-1">Diagnóstico e desenho da arquitetura</p>
                     </div>
                     <div className="glass-card p-4">
                       <p className="text-sm text-white">Semana 2</p>
-                      <p className="text-xs text-gray-400 mt-1">Prototipo funcional e validacao com o time</p>
+                      <p className="text-xs text-gray-400 mt-1">Protótipo funcional e validação com o time</p>
                     </div>
                     <div className="glass-card p-4">
                       <p className="text-sm text-white">Semana 3+</p>
-                      <p className="text-xs text-gray-400 mt-1">Implantacao assistida com indicadores ativos</p>
+                      <p className="text-xs text-gray-400 mt-1">Implantação assistida com indicadores ativos</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="mt-8">
                   <PrimaryCTA href="#contato" className="w-full justify-center">
-                    Agendar diagnostico estrategico
+                    Agendar diagnóstico estratégico
                   </PrimaryCTA>
                 </div>
               </div>

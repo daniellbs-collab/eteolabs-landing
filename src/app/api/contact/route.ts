@@ -4,7 +4,7 @@ import { prisma } from '@/lib/prisma';
 
 const contactSchema = z.object({
   name: z.string().min(2, 'Nome muito curto'),
-  email: z.string().email('Email invalido'),
+  email: z.string().email('Email inválido'),
   company: z.string().optional(),
   message: z.string().min(10, 'Mensagem muito curta'),
 });
@@ -28,7 +28,7 @@ export async function POST(request: Request) {
 
     if (!result.success) {
       return NextResponse.json(
-        { error: 'Dados invalidos', details: result.error.issues },
+        { error: 'Dados inválidos', details: result.error.issues },
         { status: 400 }
       );
     }
@@ -39,7 +39,7 @@ export async function POST(request: Request) {
       const leadModel = (prisma as unknown as { lead?: LeadDelegate }).lead;
 
       if (!leadModel) {
-        throw new Error('Modelo lead indisponivel');
+        throw new Error('Modelo lead indisponível');
       }
 
       const lead = await leadModel.create({
@@ -57,7 +57,7 @@ export async function POST(request: Request) {
       console.error('Database Error:', dbError);
       return NextResponse.json({
         success: true,
-        message: 'Recebido (Simulacao: banco de dados nao conectado)',
+        message: 'Recebido (Simulação: banco de dados não conectado)',
       });
     }
   } catch (error) {

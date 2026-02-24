@@ -18,9 +18,9 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Eteo Labs | Sistemas que transformam negocios',
+  title: 'Eteo Labs | Sistemas que transformam negócios',
   description:
-    'Landing comercial da Eteo Labs para projetos de transformacao de gestao: dashboards inteligentes, clinicas, varejo, barbearias e operacoes complexas.',
+    'Landing comercial da Eteo Labs para projetos de transformação de gestão: dashboards inteligentes, clínicas, varejo, barbearias e operações complexas.',
 };
 
 export default function RootLayout({

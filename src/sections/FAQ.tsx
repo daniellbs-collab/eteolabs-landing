@@ -11,19 +11,19 @@ const EASE_OUT: [number, number, number, number] = [0.22, 1, 0.36, 1];
 const faqs = [
   {
     q: 'Em quanto tempo conseguimos perceber resultado?',
-    a: 'Na maioria dos projetos, os primeiros ganhos aparecem nas primeiras semanas com reducao de retrabalho e aumento de previsibilidade operacional.',
+    a: 'Na maioria dos projetos, os primeiros ganhos aparecem nas primeiras semanas com redução de retrabalho e aumento de previsibilidade operacional.',
   },
   {
-    q: 'A Eteo atende apenas um tipo de negocio?',
-    a: 'Nao. Atuamos com portfolio multiplo: clinicas, varejo, barbearias, operacoes de condominio e projetos sob medida para empresas em expansao.',
+    q: 'A Eteo atende apenas um tipo de negócio?',
+    a: 'Não. Atuamos com portfólio múltiplo: clínicas, varejo, barbearias, operações de condomínio e projetos sob medida para empresas em expansão.',
   },
   {
-    q: 'Voces substituem nossos sistemas atuais?',
-    a: 'Depende da estrategia ideal para o seu cenario. Podemos integrar o que ja existe ou redesenhar a arquitetura para simplificar sua operacao.',
+    q: 'Vocês substituem nossos sistemas atuais?',
+    a: 'Depende da estratégia ideal para o seu cenário. Podemos integrar o que já existe ou redesenhar a arquitetura para simplificar sua operação.',
   },
   {
-    q: 'Como funciona o suporte apos a entrega?',
-    a: 'Entregamos com acompanhamento de performance, rituais de evolucao e suporte tecnico para garantir que o resultado se sustente no tempo.',
+    q: 'Como funciona o suporte após a entrega?',
+    a: 'Entregamos com acompanhamento de performance, rituais de evolução e suporte técnico para garantir que o resultado se sustente no tempo.',
   },
 ];
 
@@ -57,9 +57,9 @@ export function FAQ() {
   return (
     <section id="faq" className="py-24 relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
       <SectionTitle
-        tag="Objecoes"
+        tag="Objeções"
         title="Perguntas antes de fechar"
-        description="Transparencia total para voce decidir com seguranca e velocidade."
+        description="Transparência total para você decidir com segurança e velocidade."
       />
 
       <div className="space-y-2">
@@ -69,7 +69,7 @@ export function FAQ() {
       </div>
 
       <div className="mt-16 text-center">
-        <p className="text-gray-400 mb-6">Quer validar seu cenario com nosso time estrategico?</p>
+        <p className="text-gray-400 mb-6">Quer validar seu cenário com nosso time estratégico?</p>
         <PrimaryCTA href="#contato">Falar com consultor</PrimaryCTA>
       </div>
     </section>

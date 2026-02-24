@@ -8,26 +8,26 @@ import { cn } from '@/lib/utils';
 
 const plans = [
   {
-    name: 'Sprint de Diagnostico',
+    name: 'Sprint de Diagnóstico',
     price: 'Projeto enxuto',
-    desc: 'Para empresas que querem clareza rapida antes da implantacao completa.',
-    features: ['Mapeamento de gargalos', 'Roadmap de ganhos', 'Prototipo visual da solucao'],
-    cta: 'Iniciar diagnostico',
+    desc: 'Para empresas que querem clareza rápida antes da implantação completa.',
+    features: ['Mapeamento de gargalos', 'Roadmap de ganhos', 'Protótipo visual da solução'],
+    cta: 'Iniciar diagnóstico',
     primary: false,
   },
   {
-    name: 'Transformacao Operacional',
+    name: 'Transformação Operacional',
     price: 'Plano recomendado',
-    desc: 'Entrega ponta a ponta com foco em governanca, dados e escala comercial.',
-    features: ['Arquitetura completa', 'Implantacao assistida', 'Dashboards executivos', 'Rituais de performance'],
-    cta: 'Quero transformar minha operacao',
+    desc: 'Entrega ponta a ponta com foco em governança, dados e escala comercial.',
+    features: ['Arquitetura completa', 'Implantação assistida', 'Dashboards executivos', 'Rituais de performance'],
+    cta: 'Quero transformar minha operação',
     primary: true,
   },
   {
-    name: 'Enterprise Continuo',
+    name: 'Enterprise Contínuo',
     price: 'Sob medida',
-    desc: 'Para grupos com operacoes complexas e multiplas unidades.',
-    features: ['Squad dedicado', 'Integracoes avancadas', 'SLA estrategico', 'Evolucao continua da plataforma'],
+    desc: 'Para grupos com operações complexas e múltiplas unidades.',
+    features: ['Squad dedicado', 'Integrações avançadas', 'SLA estratégico', 'Evolução contínua da plataforma'],
     cta: 'Falar com especialistas',
     primary: false,
   },
@@ -38,8 +38,8 @@ export function Pricing() {
     <section id="planos" className="py-24 relative">
       <SectionTitle
         tag="Comercial"
-        title="Modelos de contratacao orientados a resultado"
-        description="Voce escolhe o nivel de aceleracao. Nos cuidamos da engenharia para transformar gestao em vantagem competitiva."
+        title="Modelos de contratação orientados a resultado"
+        description="Você escolhe o nível de aceleração. Nós cuidamos da engenharia para transformar gestão em vantagem competitiva."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

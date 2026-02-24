@@ -8,8 +8,8 @@ import { motion, useMotionValueEvent, useScroll } from 'framer-motion';
 const EASE_OUT: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 const navItems = [
-  { label: 'Portfolio', href: '#portfolio' },
-  { label: 'Metodo', href: '#metodo' },
+  { label: 'Portfólio', href: '#portfolio' },
+  { label: 'Método', href: '#metodo' },
   { label: 'Arquitetura', href: '#arquitetura' },
   { label: 'Planos', href: '#planos' },
   { label: 'FAQ', href: '#faq' },
@@ -67,7 +67,7 @@ export function Navbar() {
               </a>
             ) : (
               <a href="#contato" className="hidden sm:block text-sm text-gray-300 hover:text-white transition-colors">
-                Diagnostico
+                Diagnóstico
               </a>
             )}
             <a

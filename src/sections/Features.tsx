@@ -11,42 +11,42 @@ const portfolio = [
   {
     icon: BarChart3,
     title: 'Dashboards Inteligentes',
-    desc: 'Visao de ponta a ponta da operacao com metas, alertas e analise em tempo real.',
+    desc: 'Visão de ponta a ponta da operação com metas, alertas e análise em tempo real.',
     tone: 'from-cyan-primary/15 to-cyan-primary/0',
     size: 'md:col-span-2',
   },
   {
     icon: Stethoscope,
-    title: 'Clinicas e Consultorios',
-    desc: 'Agenda, atendimento e financeiro em um fluxo claro para gestao medica moderna.',
+    title: 'Clínicas e Consultórios',
+    desc: 'Agenda, atendimento e financeiro em um fluxo claro para gestão médica moderna.',
     tone: 'from-magenta-pop/15 to-magenta-pop/0',
     size: 'md:col-span-1',
   },
   {
     icon: Store,
     title: 'Varejo de Notebooks',
-    desc: 'Gestao comercial e pos-venda com controle de estoque, margem e performance de equipe.',
+    desc: 'Gestão comercial e pós-venda com controle de estoque, margem e performance de equipe.',
     tone: 'from-cyan-primary/15 to-magenta-pop/0',
     size: 'md:col-span-1',
   },
   {
     icon: Scissors,
     title: 'Barbearias de Alta Performance',
-    desc: 'Agenda inteligente, recorrencia e previsibilidade de caixa para operar com escala.',
+    desc: 'Agenda inteligente, recorrência e previsibilidade de caixa para operar com escala.',
     tone: 'from-magenta-pop/15 to-cyan-primary/0',
     size: 'md:col-span-1',
   },
   {
     icon: Shield,
-    title: 'Condominios e Controle Operacional',
-    desc: 'Fluxo seguro para acesso, encomendas e rastreabilidade com padrao premium.',
+    title: 'Condomínios e Controle Operacional',
+    desc: 'Fluxo seguro para acesso, encomendas e rastreabilidade com padrão premium.',
     tone: 'from-cyan-primary/15 to-magenta-pop/0',
     size: 'md:col-span-1',
   },
   {
     icon: Building2,
     title: 'Projetos Sob Medida para Empresas',
-    desc: 'Arquitetura personalizada para processos especificos, integracao e governanca executiva.',
+    desc: 'Arquitetura personalizada para processos específicos, integração e governança executiva.',
     tone: 'from-cyan-primary/15 to-cyan-primary/0',
     size: 'md:col-span-2',
   },
@@ -56,9 +56,9 @@ export function Features() {
   return (
     <section id="portfolio" className="py-24 relative">
       <SectionTitle
-        tag="Portfolio"
-        title="Projetos que elevam o nivel da operacao"
-        description="Cada entrega nasce de uma estrategia comercial, nao de um template generico."
+        tag="Portfólio"
+        title="Projetos que elevam o nível da operação"
+        description="Cada entrega nasce de uma estratégia comercial, não de um template genérico."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

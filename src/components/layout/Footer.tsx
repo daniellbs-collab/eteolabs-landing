@@ -17,17 +17,17 @@ export function Footer() {
               />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Sistemas que transformam negocios. Governanca, gestao e execucao em nivel estrategico.
+              Sistemas que transformam negócios. Governança, gestão e execução em nível estratégico.
             </p>
           </div>
 
           <div>
-            <h4 className="font-bold text-white mb-6">Portfolio</h4>
+            <h4 className="font-bold text-white mb-6">Portfólio</h4>
             <ul className="space-y-4 text-sm text-gray-400">
               <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Dashboards inteligentes</a></li>
-              <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Sistemas para clinicas</a></li>
+              <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Sistemas para clínicas</a></li>
               <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Varejo de notebooks</a></li>
-              <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Barbearias e servicos</a></li>
+              <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Barbearias e serviços</a></li>
             </ul>
           </div>
 

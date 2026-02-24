@@ -27,9 +27,9 @@ const fadeUp = {
 
 const sectors = [
   { icon: Cpu, label: 'Dashboards inteligentes' },
-  { icon: Stethoscope, label: 'Sistemas para clinicas' },
-  { icon: Building2, label: 'Operacoes de varejo e notebooks' },
-  { icon: Scissors, label: 'Gestao premium para barbearias' },
+  { icon: Stethoscope, label: 'Sistemas para clínicas' },
+  { icon: Building2, label: 'Operações de varejo e notebooks' },
+  { icon: Scissors, label: 'Gestão premium para barbearias' },
 ];
 
 export function Hero() {
@@ -61,17 +61,17 @@ export function Hero() {
           variants={fadeUp}
           className="max-w-5xl text-5xl md:text-7xl lg:text-8xl font-display font-extrabold tracking-tighter leading-[0.92]"
         >
-          <span className="text-gradient">Sistemas que transformam negocios.</span>
-          <br className="hidden md:block" /> Governanca, gestao e execucao em outro nivel.
+          <span className="text-gradient">Sistemas que transformam negócios.</span>
+          <br className="hidden md:block" /> Governança, gestão e execução em outro nível.
         </motion.h1>
 
         <motion.p variants={fadeUp} className="mt-6 text-lg md:text-xl text-gray-300 font-light max-w-2xl leading-relaxed">
-          Nao entregamos software para &quot;agregar&quot;. Entregamos arquitetura de negocio para escalar
-          operacao, reduzir friccao e dar visibilidade total ao que move sua receita.
+          Não entregamos software para &quot;agregar&quot;. Entregamos arquitetura de negócio para escalar
+          operação, reduzir fricção e dar visibilidade total ao que move sua receita.
         </motion.p>
 
         <motion.div variants={fadeUp} className="mt-10 flex flex-wrap gap-4">
-          <PrimaryCTA href="#contato">Quero elevar minha operacao</PrimaryCTA>
+          <PrimaryCTA href="#contato">Quero elevar minha operação</PrimaryCTA>
           <SecondaryCTA href="https://nexus.eteolabs.com.br">Acessar ETEO NEXUS</SecondaryCTA>
         </motion.div>
 

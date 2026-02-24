@@ -22,10 +22,10 @@ export default function NexusPage() {
           </span>
 
           <h1 className="mt-6 text-5xl md:text-7xl font-display font-extrabold tracking-tighter leading-[0.92]">
-            Gestao inteligente de encomendas e operacao condominial.
+            Gestão inteligente de encomendas e operação condominial.
           </h1>
           <p className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl">
-            Rastreabilidade completa, automacao de rotinas e visibilidade operacional em tempo real.
+            Rastreabilidade completa, automação de rotinas e visibilidade operacional em tempo real.
           </p>
         </div>
 
@@ -49,17 +49,17 @@ export default function NexusPage() {
           <div className="glass-card p-5">
             <ShieldCheck className="w-5 h-5 text-cyan-primary" />
             <h3 className="mt-3 text-lg font-bold">Rastreabilidade total</h3>
-            <p className="mt-2 text-sm text-gray-300">Fluxo completo do recebimento ate a entrega com auditoria.</p>
+            <p className="mt-2 text-sm text-gray-300">Fluxo completo do recebimento até a entrega com auditoria.</p>
           </div>
           <div className="glass-card p-5">
             <Zap className="w-5 h-5 text-cyan-primary" />
-            <h3 className="mt-3 text-lg font-bold">Operacao automatizada</h3>
+            <h3 className="mt-3 text-lg font-bold">Operação automatizada</h3>
             <p className="mt-2 text-sm text-gray-300">Reduza tarefas manuais e aumente velocidade da equipe.</p>
           </div>
           <div className="glass-card p-5">
             <Sparkles className="w-5 h-5 text-cyan-primary" />
-            <h3 className="mt-3 text-lg font-bold">Experiencia premium</h3>
-            <p className="mt-2 text-sm text-gray-300">Comunicacao clara para moradores e gestao profissional.</p>
+            <h3 className="mt-3 text-lg font-bold">Experiência premium</h3>
+            <p className="mt-2 text-sm text-gray-300">Comunicação clara para moradores e gestão profissional.</p>
           </div>
         </div>
       </section>

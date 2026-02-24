@@ -9,14 +9,14 @@ const EASE_OUT: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 const stats = [
   { value: 40, suffix: '+', label: 'Projetos em segmentos diferentes' },
-  { value: 7, suffix: ' dias', label: 'Primeiras automacoes em producao' },
-  { value: 32, suffix: '%', label: 'Reducao media de retrabalho operacional' },
-  { value: 96, suffix: '%', label: 'Clientes renovando apos 12 meses' },
+  { value: 7, suffix: ' dias', label: 'Primeiras automações em produção' },
+  { value: 32, suffix: '%', label: 'Redução média de retrabalho operacional' },
+  { value: 96, suffix: '%', label: 'Clientes renovando após 12 meses' },
 ];
 
 const trustItems = [
   { icon: ShieldCheck, text: 'Arquitetura alinhada com LGPD' },
-  { icon: Clock3, text: 'Time de implantacao com resposta rapida' },
+  { icon: Clock3, text: 'Time de implantação com resposta rápida' },
   { icon: Sparkles, text: 'Entrega visual premium sem sacrificar performance' },
 ];
 

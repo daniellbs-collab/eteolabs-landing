@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
@@ -50,19 +50,23 @@ export function Contact() {
 
       <SectionTitle
         tag="Fechamento"
-        title="Vamos desenhar sua transformacao"
-        description="Compartilhe seu cenario. Em seguida montamos um plano de evolucao com metas, prazos e impacto esperado."
+        title="Vamos desenhar sua transformação"
+        description="Compartilhe seu cenário. Em seguida montamos um plano de evolução com metas, prazos e impacto esperado."
       />
 
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <GlassCard className="p-8 md:p-12">
           {status === 'success' ? (
-            <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="text-center py-12">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="text-center py-12"
+            >
               <div className="w-16 h-16 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-6">
                 <CheckCircle className="w-8 h-8 text-green-500" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-2">Mensagem recebida</h3>
-              <p className="text-gray-400">Nosso time entra em contato para estruturar o proximo passo do seu projeto.</p>
+              <p className="text-gray-400">Nosso time entra em contato para estruturar o próximo passo do seu projeto.</p>
               <button
                 onClick={() => setStatus('idle')}
                 className="mt-8 text-cyan-primary hover:text-cyan-300 transition-colors text-sm font-medium"
@@ -136,7 +140,7 @@ export function Contact() {
                   value={formState.message}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-xl bg-gray-950/50 border border-white/10 text-white placeholder:text-gray-600 focus:outline-none focus:border-cyan-primary/50 focus:ring-1 focus:ring-cyan-primary/50 transition-all resize-none"
-                  placeholder="Qual gargalo operacional voce quer resolver primeiro?"
+                  placeholder="Qual gargalo operacional você quer resolver primeiro?"
                 />
               </div>
 
@@ -158,7 +162,7 @@ export function Contact() {
                     Enviando...
                   </>
                 ) : (
-                  'Solicitar diagnostico estrategico'
+                  'Solicitar diagnóstico estratégico'
                 )}
               </button>
             </form>

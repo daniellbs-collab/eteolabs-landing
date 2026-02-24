@@ -7,17 +7,17 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 const EASE_OUT: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 const beforeItems = [
-  'Sistemas isolados que nao conversam entre si',
-  'Decisoes tomadas no feeling e sem visibilidade real',
+  'Sistemas isolados que não conversam entre si',
+  'Decisões tomadas no feeling e sem visibilidade real',
   'Equipe ocupada com tarefas manuais que travam o crescimento',
-  'Gestao reativa: corrige erro depois que o prejuizo apareceu',
+  'Gestão reativa: corrige erro depois que o prejuízo apareceu',
 ];
 
 const afterItems = [
-  'Dados confiaveis para decidir com velocidade e seguranca',
-  'Processos conectados de ponta a ponta em um fluxo unico',
-  'Automacao inteligente para liberar tempo do time estrategico',
-  'Governanca operacional com indicadores em tempo real',
+  'Dados confiáveis para decidir com velocidade e segurança',
+  'Processos conectados de ponta a ponta em um fluxo único',
+  'Automação inteligente para liberar tempo do time estratégico',
+  'Governança operacional com indicadores em tempo real',
 ];
 
 export function PainSolution() {
@@ -27,8 +27,8 @@ export function PainSolution() {
 
       <SectionTitle
         tag="Manifesto"
-        title="Nao basta agregar. Precisa transformar."
-        description="Esse e o nosso principio: elevar o patamar de governanca e gestao para um novo nivel de maturidade."
+        title="Não basta agregar. Precisa transformar."
+        description="Esse é o nosso princípio: elevar o patamar de governança e gestão para um novo nível de maturidade."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -40,7 +40,7 @@ export function PainSolution() {
             transition={{ duration: 0.7, ease: EASE_OUT }}
             className="glass-card p-8 border border-red-500/20"
           >
-            <h3 className="text-2xl font-display font-bold text-white mb-6">Operacao sem transformacao</h3>
+            <h3 className="text-2xl font-display font-bold text-white mb-6">Operação sem transformação</h3>
             <ul className="space-y-4">
               {beforeItems.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-gray-300">
@@ -70,7 +70,7 @@ export function PainSolution() {
             transition={{ duration: 0.7, delay: 0.15, ease: EASE_OUT }}
             className="glass-card p-8 border border-cyan-primary/20 shadow-[0_0_45px_rgba(0,240,255,0.08)]"
           >
-            <h3 className="text-2xl font-display font-bold text-white mb-6">Operacao transformada com Eteo</h3>
+            <h3 className="text-2xl font-display font-bold text-white mb-6">Operação transformada com Eteo</h3>
             <ul className="space-y-4">
               {afterItems.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-gray-200">
