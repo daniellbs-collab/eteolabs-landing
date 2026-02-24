@@ -1,26 +1,57 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
+  body {
+    @apply bg-void text-gray-50 font-body antialiased;
+  }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  ::selection {
+    @apply bg-cyan-primary/20 text-cyan-primary;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #030712;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1f2937;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #374151;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(
+      135deg,
+      #00f0ff 0%,
+      #ff00e5 50%,
+      #00f0ff 100%
+    );
+    background-size: 200% auto;
+    animation: gradient-shift 8s ease infinite;
+  }
+
+  .glass-card {
+    @apply bg-gray-900/60 backdrop-blur-xl border border-white/[0.06] rounded-3xl;
+  }
+
+  .glass-card-interactive {
+    @apply glass-card hover:bg-gray-900/75 hover:border-cyan-400/15 transition-all duration-500;
+  }
+
+  .neon-glow {
+    box-shadow:
+      0 0 15px rgba(0, 240, 255, 0.3),
+      0 0 30px rgba(0, 240, 255, 0.15),
+      0 0 60px rgba(0, 240, 255, 0.05);
+  }
 }
