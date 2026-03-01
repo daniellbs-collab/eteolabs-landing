@@ -9,19 +9,19 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                void: '#030712',
-                deep: '#0A0F1E',
-                surface: '#111827',
-                elevated: '#1F2937',
+                void: '#050607',
+                deep: '#0B0D0F',
+                surface: '#121518',
+                elevated: '#1B2024',
                 cyan: {
-                    primary: '#00F0FF',
-                    glow: 'rgba(0, 240, 255, 0.25)',
-                    soft: 'rgba(0, 240, 255, 0.08)',
+                    primary: '#D3E5DC',
+                    glow: 'rgba(211, 229, 220, 0.28)',
+                    soft: 'rgba(211, 229, 220, 0.10)',
                 },
                 magenta: {
-                    pop: '#FF00E5',
-                    glow: 'rgba(255, 0, 229, 0.25)',
-                    soft: 'rgba(255, 0, 229, 0.08)',
+                    pop: '#8FA398',
+                    glow: 'rgba(143, 163, 152, 0.28)',
+                    soft: 'rgba(143, 163, 152, 0.10)',
                 },
             },
             fontFamily: {
@@ -43,11 +43,11 @@ module.exports = {
                 'neon-pulse': {
                     '0%, 100%': {
                         boxShadow:
-                            '0 0 15px rgba(0,240,255,0.3), 0 0 30px rgba(0,240,255,0.15)',
+                            '0 0 15px rgba(211,229,220,0.3), 0 0 30px rgba(211,229,220,0.15)',
                     },
                     '50%': {
                         boxShadow:
-                            '0 0 20px rgba(0,240,255,0.5), 0 0 40px rgba(0,240,255,0.25)',
+                            '0 0 20px rgba(211,229,220,0.5), 0 0 40px rgba(211,229,220,0.25)',
                     },
                 },
                 float: {

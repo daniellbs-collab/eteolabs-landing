@@ -63,6 +63,15 @@ export function SectionTitle({ tag, title, description }: SectionTitleProps) {
           <p className="mt-4 text-lg text-gray-400 font-light">{description}</p>
         </Reveal>
       )}
+      <Reveal delay={0.28}>
+        <motion.div
+          initial={{ width: 0, opacity: 0 }}
+          whileInView={{ width: 120, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.75, ease: EASE_OUT }}
+          className="h-px mt-8 mx-auto bg-gradient-to-r from-transparent via-cyan-primary/70 to-transparent"
+        />
+      </Reveal>
     </div>
   );
 }

@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: 'A Eteo atende apenas um tipo de negócio?',
-    a: 'Não. Atuamos com portfólio múltiplo: clínicas, varejo, barbearias, operações de condomínio e projetos sob medida para empresas em expansão.',
+    a: 'Não. Atuamos com portfólio múltiplo: empresas da área da saúde, comércios complexos, redes de serviços premium, operações de condomínio e projetos sob medida para empresas em expansão.',
   },
   {
     q: 'Vocês substituem nossos sistemas atuais?',

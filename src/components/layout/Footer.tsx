@@ -25,9 +25,9 @@ export function Footer() {
             <h4 className="font-bold text-white mb-6">Portfólio</h4>
             <ul className="space-y-4 text-sm text-gray-400">
               <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Dashboards inteligentes</a></li>
-              <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Sistemas para clínicas</a></li>
-              <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Varejo de notebooks</a></li>
-              <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Barbearias e serviços</a></li>
+              <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Empresas da área da saúde</a></li>
+              <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Comércios complexos</a></li>
+              <li><a href="#portfolio" className="hover:text-cyan-400 transition-colors">Redes de serviços premium</a></li>
             </ul>
           </div>
 

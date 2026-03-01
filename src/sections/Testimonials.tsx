@@ -15,19 +15,19 @@ const testimonials = [
   },
   {
     name: 'Fernanda Lima',
-    role: 'Gestora de clínica',
+    role: 'Gestora de operação em saúde',
     quote: 'A nova arquitetura de agenda e atendimento aumentou nossa produtividade sem aumentar equipe.',
     rating: 5,
   },
   {
     name: 'Rafael Tavares',
-    role: 'Diretor de varejo de notebooks',
+    role: 'Diretor de comércio complexo multicanal',
     quote: 'Com dashboards em tempo real, passamos a corrigir margem e estoque antes do problema virar prejuízo.',
     rating: 5,
   },
   {
     name: 'Bruno Mendes',
-    role: 'Dono de rede de barbearias',
+    role: 'CEO de rede de serviços premium',
     quote: 'Finalmente temos previsibilidade de agenda e recorrência. O sistema sustenta nosso crescimento.',
     rating: 5,
   },
@@ -44,7 +44,7 @@ export function Testimonials() {
   }, []);
 
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="depoimentos" className="py-24 relative overflow-hidden">
       <SectionTitle
         tag="Prova social"
         title="Resultados que sustentam o discurso"
@@ -54,7 +54,12 @@ export function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden" ref={carouselRef}>
         <motion.div drag="x" dragConstraints={{ right: 0, left: -width }} whileTap={{ cursor: 'grabbing' }} className="flex gap-6 cursor-grab active:cursor-grabbing pb-8">
           {testimonials.map((item) => (
-            <motion.div key={item.name} className="min-w-[300px] md:min-w-[410px]">
+            <motion.div
+              key={item.name}
+              className="min-w-[300px] md:min-w-[410px]"
+              whileHover={{ y: -6, rotateX: 2, rotateY: -2 }}
+              transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            >
               <GlassCard className="p-8 h-full flex flex-col justify-between">
                 <div>
                   <div className="flex gap-1 mb-4">

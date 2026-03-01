@@ -1,4 +1,16 @@
+import type { Metadata } from 'next';
 import { ArrowLeft, ArrowRight, ShieldCheck, Sparkles, Zap } from 'lucide-react';
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://eteolabs.com.br';
+
+export const metadata: Metadata = {
+  title: 'ETEO NEXUS',
+  description:
+    'Gestão inteligente de encomendas e operação condominial com rastreabilidade completa e indicadores em tempo real.',
+  alternates: {
+    canonical: `${siteUrl}/nexus`,
+  },
+};
 
 export default function NexusPage() {
   return (

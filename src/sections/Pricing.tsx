@@ -1,6 +1,7 @@
 'use client';
 
 import { Check } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { PrimaryCTA, SecondaryCTA } from '@/components/ui/Buttons';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { SectionTitle } from '@/components/ui/SectionTitle';
@@ -45,7 +46,12 @@ export function Pricing() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
           {plans.map((plan) => (
-            <div key={plan.name} className={cn('relative', plan.primary ? 'md:-mt-4 md:mb-4 z-10' : '')}>
+            <motion.div
+              key={plan.name}
+              whileHover={{ y: -6, scale: 1.01 }}
+              transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+              className={cn('relative', plan.primary ? 'md:-mt-4 md:mb-4 z-10' : '')}
+            >
               <GlassCard
                 variant={plan.primary ? 'elevated' : 'standard'}
                 className={cn(
@@ -86,7 +92,7 @@ export function Pricing() {
                   </SecondaryCTA>
                 )}
               </GlassCard>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
