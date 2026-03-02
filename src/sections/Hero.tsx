@@ -3,8 +3,10 @@
 import { motion, useInView, useReducedMotion } from 'framer-motion';
 import { Building2, Cpu, Scissors, Stethoscope } from 'lucide-react';
 import { useRef } from 'react';
-import { HeroScene } from '@/components/3d/HeroScene';
-import { Scene3D } from '@/components/3d/Scene3D';
+import dynamic from 'next/dynamic';
+
+const Scene3D = dynamic(() => import('@/components/3d/Scene3D').then(m => m.Scene3D), { ssr: false });
+const HeroScene = dynamic(() => import('@/components/3d/HeroScene').then(m => m.HeroScene), { ssr: false });
 import { PrimaryCTA, SecondaryCTA } from '@/components/ui/Buttons';
 import { ScrollIndicator } from '@/components/ui/ScrollIndicator';
 

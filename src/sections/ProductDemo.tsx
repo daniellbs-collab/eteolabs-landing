@@ -3,8 +3,10 @@
 import { useRef } from 'react';
 import { motion, useInView, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import { Activity, Bot, BrainCircuit, Gauge, Layers, LineChart, Rocket, Workflow } from 'lucide-react';
-import { ParticleField } from '@/components/3d/ParticleField';
-import { Scene3D } from '@/components/3d/Scene3D';
+import dynamic from 'next/dynamic';
+
+const Scene3D = dynamic(() => import('@/components/3d/Scene3D').then(m => m.Scene3D), { ssr: false });
+const ParticleField = dynamic(() => import('@/components/3d/ParticleField').then(m => m.ParticleField), { ssr: false });
 import { PrimaryCTA } from '@/components/ui/Buttons';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 
