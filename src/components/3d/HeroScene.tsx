@@ -176,7 +176,7 @@ export function HeroScene() {
 
       <Stars radius={100} depth={50} count={1500} factor={2} saturation={1} fade speed={1} />
 
-      <EffectComposer multisampling={4}>
+      <EffectComposer multisampling={0}>
         <Bloom luminanceThreshold={0.2} luminanceSmoothing={0.9} intensity={1.5} />
       </EffectComposer>
     </>

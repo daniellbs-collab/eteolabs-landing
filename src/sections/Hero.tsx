@@ -5,8 +5,13 @@ import { Building2, Cpu, Scissors, Stethoscope } from 'lucide-react';
 import { useRef } from 'react';
 import dynamic from 'next/dynamic';
 
-const Scene3D = dynamic(() => import('@/components/3d/Scene3D').then(m => m.Scene3D), { ssr: false });
-const HeroScene = dynamic(() => import('@/components/3d/HeroScene').then(m => m.HeroScene), { ssr: false });
+const Scene3D = dynamic(() => import('@/components/3d/Scene3D').then(m => m.Scene3D), {
+  ssr: false,
+  loading: () => <div className="absolute inset-0 z-0 bg-transparent" />
+});
+const HeroScene = dynamic(() => import('@/components/3d/HeroScene').then(m => m.HeroScene), {
+  ssr: false
+});
 import { PrimaryCTA, SecondaryCTA } from '@/components/ui/Buttons';
 import { ScrollIndicator } from '@/components/ui/ScrollIndicator';
 
